@@ -1,0 +1,38 @@
+.container {
+    max-width: 400px;   
+    margin: 150px auto 0 auto;
+    box-shadow: 0px 0px 10px 10px rgb(92, 90, 84);
+}
+
+.display {
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    width: 381px;
+    height: 30px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.allover {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+button {
+    border: 0.5px solid #999;
+    background-color: rgb(213, 195, 230);
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(1, 1, 255);
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
